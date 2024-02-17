@@ -7,4 +7,7 @@ return {
       },
     },
   },
+  keys = {
+    { "<leader><C-e>", ":Neotree focus<CR>", desc = "Focus Neotree" },
+  },
 }
