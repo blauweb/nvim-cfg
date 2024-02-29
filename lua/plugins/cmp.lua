@@ -33,7 +33,7 @@ return {
   "hrsh7th/nvim-cmp",
   opts = function(_, opts)
     -- opts.preselect = {}
-    opts.preselect = require("cmp").PreselectMode.Item
+    opts.preselect = require("cmp").PreselectMode.None
     opts.completion = {
       autocomplete = false,
       completeopt = "menu,menuone,noselect,noinsert",
