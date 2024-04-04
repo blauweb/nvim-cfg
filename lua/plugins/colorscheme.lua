@@ -10,7 +10,8 @@ return {
       -- transparent_background = true,
       color_overrides = {
         macchiato = {
-          base = "#1F191C",
+          base = "#241e25",
+          mantle = "#1f1a1f",
         },
       },
     },
